@@ -23,5 +23,6 @@ export default {
       this.update = !this.update;
     },
   },
+  head: { title: "Upload a new Gif" },
 };
 </script>

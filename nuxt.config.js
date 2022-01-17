@@ -2,6 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'gif-task',
+    titleTemplate: 'GIT_TASK | %s',
     htmlAttrs: {
       lang: 'en'
     },

@@ -44,6 +44,7 @@ export default {
     },
   },
   components: { Post, Loader },
+  head: { title: "Favourites" },
 };
 </script>
 

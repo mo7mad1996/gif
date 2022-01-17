@@ -99,5 +99,10 @@ export default {
         });
     },
   },
+  head() {
+    return {
+      title: "Search For " + this.q,
+    };
+  },
 };
 </script>

@@ -37,6 +37,12 @@ export default {
     },
   },
   layout: "fluid",
+
+  head() {
+    return {
+      title: this.post.content_description,
+    };
+  },
 };
 </script>
 
